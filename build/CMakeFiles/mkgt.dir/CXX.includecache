@@ -6,10 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/home/zhangying/code/opencv/showvideo.cpp
+/home/zhangying/code/opencv/undistort.cpp
 opencv2/opencv.hpp
 /home/zhangying/code/opencv/opencv2/opencv.hpp
 iostream
+-
+string
+-
+fstream
 -
 
 /usr/local/include/opencv/cxcore.h

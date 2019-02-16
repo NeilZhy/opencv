@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /home/zhangying/code/opencv
 CMAKE_BINARY_DIR = /home/zhangying/code/opencv/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/opencv.dir
+# Target rules for target CMakeFiles/mkgt.dir
 
 # All Build rule for target.
-CMakeFiles/opencv.dir/all:
-	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/depend
-	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhangying/code/opencv/build/CMakeFiles --progress-num=1,2 "Built target opencv"
-.PHONY : CMakeFiles/opencv.dir/all
+CMakeFiles/mkgt.dir/all:
+	$(MAKE) -f CMakeFiles/mkgt.dir/build.make CMakeFiles/mkgt.dir/depend
+	$(MAKE) -f CMakeFiles/mkgt.dir/build.make CMakeFiles/mkgt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhangying/code/opencv/build/CMakeFiles --progress-num=1,2 "Built target mkgt"
+.PHONY : CMakeFiles/mkgt.dir/all
 
 # Include target in all.
-all: CMakeFiles/opencv.dir/all
+all: CMakeFiles/mkgt.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/opencv.dir/rule: cmake_check_build_system
+CMakeFiles/mkgt.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangying/code/opencv/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/opencv.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mkgt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangying/code/opencv/build/CMakeFiles 0
-.PHONY : CMakeFiles/opencv.dir/rule
+.PHONY : CMakeFiles/mkgt.dir/rule
 
 # Convenience name for target.
-opencv: CMakeFiles/opencv.dir/rule
+mkgt: CMakeFiles/mkgt.dir/rule
 
-.PHONY : opencv
-
-# clean rule for target.
-CMakeFiles/opencv.dir/clean:
-	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/clean
-.PHONY : CMakeFiles/opencv.dir/clean
+.PHONY : mkgt
 
 # clean rule for target.
-clean: CMakeFiles/opencv.dir/clean
+CMakeFiles/mkgt.dir/clean:
+	$(MAKE) -f CMakeFiles/mkgt.dir/build.make CMakeFiles/mkgt.dir/clean
+.PHONY : CMakeFiles/mkgt.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/mkgt.dir/clean
 
 .PHONY : clean
 

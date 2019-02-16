@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named opencv
+# Target rules for targets named mkgt
 
 # Build rule for target.
-opencv: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 opencv
-.PHONY : opencv
+mkgt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mkgt
+.PHONY : mkgt
 
 # fast build rule for target.
-opencv/fast:
-	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/build
-.PHONY : opencv/fast
+mkgt/fast:
+	$(MAKE) -f CMakeFiles/mkgt.dir/build.make CMakeFiles/mkgt.dir/build
+.PHONY : mkgt/fast
 
-showvideo.o: showvideo.cpp.o
+undistort.o: undistort.cpp.o
 
-.PHONY : showvideo.o
+.PHONY : undistort.o
 
 # target to build an object file
-showvideo.cpp.o:
-	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/showvideo.cpp.o
-.PHONY : showvideo.cpp.o
+undistort.cpp.o:
+	$(MAKE) -f CMakeFiles/mkgt.dir/build.make CMakeFiles/mkgt.dir/undistort.cpp.o
+.PHONY : undistort.cpp.o
 
-showvideo.i: showvideo.cpp.i
+undistort.i: undistort.cpp.i
 
-.PHONY : showvideo.i
+.PHONY : undistort.i
 
 # target to preprocess a source file
-showvideo.cpp.i:
-	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/showvideo.cpp.i
-.PHONY : showvideo.cpp.i
+undistort.cpp.i:
+	$(MAKE) -f CMakeFiles/mkgt.dir/build.make CMakeFiles/mkgt.dir/undistort.cpp.i
+.PHONY : undistort.cpp.i
 
-showvideo.s: showvideo.cpp.s
+undistort.s: undistort.cpp.s
 
-.PHONY : showvideo.s
+.PHONY : undistort.s
 
 # target to generate assembly for a file
-showvideo.cpp.s:
-	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/showvideo.cpp.s
-.PHONY : showvideo.cpp.s
+undistort.cpp.s:
+	$(MAKE) -f CMakeFiles/mkgt.dir/build.make CMakeFiles/mkgt.dir/undistort.cpp.s
+.PHONY : undistort.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... opencv"
-	@echo "... showvideo.o"
-	@echo "... showvideo.i"
-	@echo "... showvideo.s"
+	@echo "... mkgt"
+	@echo "... undistort.o"
+	@echo "... undistort.i"
+	@echo "... undistort.s"
 .PHONY : help
 
 

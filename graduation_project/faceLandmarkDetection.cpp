@@ -1,6 +1,6 @@
 // Summary: 利用OpenCV的LBF算法进行人脸关键点检测
 // Author:  NeilZhy
-// Date:    2018-03-20
+// Date:    2019-04-02
 // Reference:
 //		[1]Tutorial: https://www.learnopencv.com/facemark-facial-landmark-detection-using-opencv/
 //		[2]Code: https://github.com/spmallick/learnopencv/tree/master/FacialLandmarkDetection

@@ -66,7 +66,6 @@ int main(int argc,char** argv)
 
     bool stop = false;
 
-    // 读取帧
     while(!stop)
     {
       cam.read(frame);
@@ -87,7 +86,7 @@ int main(int argc,char** argv)
       
       if(success)
       {
-        // 如果成功, 在视频帧上绘制关键点
+        // 在视频帧上绘制关键点
         for(int i = 0; i < landmarks.size(); i++)
         {
 			// 自定义绘制人脸特征点函数, 可绘制人脸特征点形状/轮廓
